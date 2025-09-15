@@ -1,0 +1,36 @@
+.colorSchemeSelector{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+
+    background: var(--gradient);
+    border: var(--border-card);
+    border-top: var(--highlight);
+
+    margin: 5px 10px 20px 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: var(--shadow);
+    
+}
+.colorSchemeSelector:hover{
+    background: var(--gradient-hover);
+}
+.title{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 1.25rem;
+}
+.circleContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 10px 0px 10px;
+}
+.circle{
+    height:4rem;
+    width:auto;
+}
