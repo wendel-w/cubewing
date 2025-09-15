@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "push": "git add . && git commit -m 'auto commit' && git push"
   },
   "dependencies": {
     "cubejs": "^1.3.2",

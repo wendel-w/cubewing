@@ -11,7 +11,7 @@ export default function RouxCmll() {
     return (
         <div>
             <div>
-                <h1>This is the Beta version of the site</h1>
+                <h1>Is the Beta version of the site</h1>
                 <h1>Roux CMLL</h1>
                 <p>This is the Roux CMLL page.</p>
                 <ColorSchemeSelector colorScheme={colorScheme} setColorScheme={setColorScheme} />
