@@ -135,7 +135,15 @@ export default function ColorSchemeSelector({colorScheme, setColorScheme}) {
         }
         return (
             <svg className={styles.circle} viewBox="0 0 20 20">
-                <circle  onClick={()=>setColor()} cx="10" cy="10" r="8" stroke="white" strokeWidth="1" fill={color} />
+                {
+                    ((target === 'top' && colorScheme.U === color) || (target === 'front' && colorScheme.F === color)) && (
+                        <>
+                            <circle cx="10" cy="10" r="9" stroke="black" strokeWidth="2" fill="none" />
+                            <circle cx="10" cy="10" r="9" stroke="white" strokeWidth="1" fill="none" />
+                        </>
+                    )
+                }
+                <circle  onClick={()=>setColor()} cx="10" cy="10" r="8" fill={color} />
             </svg>
         );
     }
