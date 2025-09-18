@@ -1,0 +1,32 @@
+{
+    "categories":{
+        "test df/db swap + fb on u 1/5 solved":[
+            {"name":"test1","alg":"M2 U2 M U2 M' U' M U2 M U'"},
+            {"name":"test2","alg":"U2 M2 U M U2 M U M' U2 M"},
+            {"name":"test3","alg":"U2 M U2 M' U' M' U2 M' U' M2"},
+            {"name":"test4","alg":"R2 U' R2 U' M2 U R2 U r2"},
+            {"name":"test5","alg":"U M2 U2 M' U2 M' U M U2 M'"},
+            {"name":"test6","alg":"U M2 U M' U2 M' U M' U2 M U"}
+        ],
+        "test df/db swap + fb on u 0/5 solved":[
+            {"name":"test1","alg":"M2 U2 M2 U M U2 M' U2"},
+            {"name":"test2","alg":"M' U2 M' U M' U2 M U' M2"},
+            {"name":"test3","alg":"M U M2 U M2 U' M'"},
+            {"name":"test4","alg":"M U' M2 U' M2 U M'"},
+            {"name":"test5","alg":"M2 U M U2 M' U' M' U2 M'"}
+        ],
+        "EPLL":[
+            {"name":"Ua","alg":"F R U R' U' F'"},
+            {"name":"Ub","alg":"M2 U M2 U2 M2 U M2"},
+            {"name":"H","alg":"M2 U M2 U2 M2 U M2"},
+            {"name":"Z","alg":"M2 U M2 U M' U2 M2 U2 M' (U2)"}
+        ],
+        "EPLL + DF/DB Swap":[
+            {"name":"Opp. Swap","alg":"M2 U2 M2 (U2)"},
+            {"name":"Adj. Swap","alg":"M2 U M U2 M U2 M2 U M2 (U2)"},
+            {"name":"Z","alg":"M2 U' M' U2 M U M2 (U2)"},
+            {"name":"Oa","alg":"M U' M2 U' M2 U' M' (U')"},
+            {"name":"Ob","alg":"M U M2 U M2 U M' (U)"}
+        ]
+    }
+}

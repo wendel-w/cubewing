@@ -4,7 +4,6 @@ import { use, useEffect, useState } from 'react';
 import './cmll.css';
 export default function GetCmllCaseSVG({className, style, algorithm, colorScheme}) {
    const [cubeState, setCubeState] = useState('');
-   const [stickers, setStickers] = useState([]);
 
    useEffect(() => {
       let cube = new Cube();

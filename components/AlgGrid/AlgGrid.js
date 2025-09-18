@@ -1,7 +1,10 @@
+"use client";
 import { useEffect, useState } from "react";
 import styles from "./AlgGrid.module.css";
-export default function AlgGrid({algSource, SvgComponent, colorScheme}) {
+import ColorSchemeSelector from "../ColorSchemeSelector/ColorSchemeSelector";
+export default function AlgGrid({algSource, SvgComponent}) {
     const [algset, setAlgset] = useState({});
+    const [colorScheme, setColorScheme] = useState({});
     useEffect(() => {
         fetch(algSource)
         .then(res => res.json())
@@ -9,6 +12,7 @@ export default function AlgGrid({algSource, SvgComponent, colorScheme}) {
     }, []);
     return (
         <>
+            <ColorSchemeSelector colorScheme={colorScheme} setColorScheme={setColorScheme} />
             {
                 algset.categories &&
                     Object.entries(algset.categories).map(([category, algs]) => (

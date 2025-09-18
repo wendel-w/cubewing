@@ -1,0 +1,23 @@
+path {
+    fill: #a38b8b;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-width: 0.529167;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 2.3;
+    stroke-dasharray: none;
+    stroke-opacity: 1;
+}
+#BACK {
+    fill: #262626;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-width: 0.65009;
+    stroke-linecap: round;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 2.3;
+    stroke-dasharray: none;
+    stroke-opacity: 1;
+    paint-order: markers stroke fill;
+}
