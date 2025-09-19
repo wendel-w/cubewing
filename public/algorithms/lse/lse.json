@@ -9,24 +9,46 @@
             {"name":"test6","alg":"U M2 U M' U2 M' U M' U2 M U"}
         ],
         "test df/db swap + fb on u 0/5 solved":[
-            {"name":"test1","alg":"M2 U2 M2 U M U2 M' U2"},
-            {"name":"test2","alg":"M' U2 M' U M' U2 M U' M2"},
-            {"name":"test3","alg":"M U M2 U M2 U' M'"},
-            {"name":"test4","alg":"M U' M2 U' M2 U M'"},
-            {"name":"test5","alg":"M2 U M U2 M' U' M' U2 M'"}
+            {"name":"H","alg":"M2 U2 M2 U M U2 M' U2"},
+            {"name":"Ua","alg":"M' U2 M' U M' U2 M U' M2"},
+            {"name":"Za","alg":"M U M2 U M2 U' M'"},
+            {"name":"Zb","alg":"M U' M2 U' M2 U M'"},
+            {"name":"Ub","alg":"M2 U M U2 M' U' M' U2 M'"}
         ],
+        "test df/db swap + fb on u 3/5 solved":[
+            {"name":" ","alg":"M' U2 M' U2 M2"}
+        ],
+        
         "EPLL":[
-            {"name":"Ua","alg":"F R U R' U' F'"},
-            {"name":"Ub","alg":"M2 U M2 U2 M2 U M2"},
+            {"name":"Ua","alg":"M2 U M U2 M' U M2"},
+            {"name":"Ub","alg":"M2 U M U2 M' U M2"},
             {"name":"H","alg":"M2 U M2 U2 M2 U M2"},
             {"name":"Z","alg":"M2 U M2 U M' U2 M2 U2 M' (U2)"}
         ],
         "EPLL + DF/DB Swap":[
             {"name":"Opp. Swap","alg":"M2 U2 M2 (U2)"},
             {"name":"Adj. Swap","alg":"M2 U M U2 M U2 M2 U M2 (U2)"},
-            {"name":"Z","alg":"M2 U' M' U2 M U M2 (U2)"},
+            {"name":"W","alg":"M2 U' M' U2 M U M2 (U2)"},
             {"name":"Oa","alg":"M U' M2 U' M2 U' M' (U')"},
             {"name":"Ob","alg":"M U M2 U M2 U M' (U)"}
+        ],
+        "FD on U 2/5":[
+            {"name":"3","alg":"M U2 M U' M' U2 M' (U)"},
+            {"name":"2","alg":"M U2 M U M' U2 M' (U')"},
+            {"name":"I","alg":"M' U2 M (U2)"}
+        ],
+        "FD on U 1/5":[
+            {"name":"I","alg":"M U2  M' U M' U2 M' U' M2"},
+            {"name":"2","alg":"M U2  M' U' M' U2 M' U M2"},
+            {"name":"3","alg":"M U  M2 U2 M2 U M'"}
+        ],
+        "FD on U 0/5":[
+            {"name":"Oa","alg":"M U2 M' U' M2 U' M2"},
+            {"name":"Ob","alg":"M U2 M' U M2 U M2"},
+            {"name":"Wa","alg":"M' U2 M U M' U2 M (U')"},
+            {"name":"Wb","alg":"M' U2 M U' M' U2 M (U)"},
+            {"name":"5","alg":"M' U2 M' U' M2 U' M U2 M' (U2)"},
+            {"name":"6","alg":"M' U2 M' U M2 U M U2 M' (U2)"}
         ]
     }
 }
