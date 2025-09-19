@@ -8,8 +8,8 @@
             {"name":"test5","alg":"U M2 U2 M' U2 M' U M U2 M'"},
             {"name":"test6","alg":"U M2 U M' U2 M' U M' U2 M U"}
         ],
-        "test df/db swap + fb on u 0/5 solved":[
-            {"name":"H","alg":"M2 U2 M2 U M U2 M' U2"},
+        "test df/db swap + fd on u 0/5 solved":[
+            {"name":"H","alg":"M2 U2 M2 U M U2 M' (U')"},
             {"name":"Ua","alg":"M' U2 M' U M' U2 M U' M2"},
             {"name":"Za","alg":"M U M2 U M2 U' M'"},
             {"name":"Zb","alg":"M U' M2 U' M2 U M'"},
