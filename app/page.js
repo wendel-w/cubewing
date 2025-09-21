@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <main className={styles.main}>
-        This is cubewing.com :)
+        This is cubewing.com :)))
         <Link href="/roux-cmll">Roux CMLL</Link>
         <Link href="/roux-lse">Roux LSE</Link>
       </main>
