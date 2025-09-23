@@ -3,7 +3,7 @@
         "DF/DB Swap + DF on U + 3/5 Solved":[
             {"name":"test1","alg":"M U2 M U2 M2"}
         ],
-        "test df/db swap + fd on u 1/5 solved":[
+        "DF/DB swap + DF on U + 1/5 Solved":[
             {"name":"test2","alg":"M2 U' M U2 M U' M U2 M' U2"},
             {"name":"test1","alg":"M2 U M U2 M U M U2 M' U2"},
             {"name":"test4","alg":"M2 U M' U2 M' U M U2 M' U2"},
@@ -12,7 +12,7 @@
             {"name":"test5(3)","alg":"M' U2 M U M' U2 M' U M2 U2"}
             
         ],
-        "test df/db swap + fd on u 0/5 solved":[
+        "DF/DB Swap + DF on U + 0/5 solved":[
             {"name":"H","alg":"M2 U2 M2 U' M' U2 M U"},
             {"name":"Za","alg":"M2 U M2 U' M U2 M' U2"},
             {"name":"Zb","alg":"M' U2 M U M2 U' M2 U2"},
