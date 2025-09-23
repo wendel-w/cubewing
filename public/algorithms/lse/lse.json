@@ -1,15 +1,16 @@
 {
     "categories":{
-        "test df/db swap + fd on u 3/5 solved":[
+        "DF/DB Swap + DF on U + 3/5 Solved":[
             {"name":"test1","alg":"M U2 M U2 M2"}
         ],
         "test df/db swap + fd on u 1/5 solved":[
+            {"name":"test2","alg":"M2 U' M U2 M U' M U2 M' U2"},
             {"name":"test1","alg":"M2 U M U2 M U M U2 M' U2"},
-            {"name":"test2","alg":"M2 U' M' U2 M' U' M U2 M' U2"},
-            {"name":"test3","alg":"U M' U2 M' U M U2 M' U2 M2"},
-            {"name":"test4","alg":"M' U2 M U' M U2 M U' M2 U2"},
-            {"name":"test5","alg":"r2 U' R2 U' M2 U R2 U R2"},
-            {"name":"test6","alg":"M2 U' M U2 M U' M U2 M' U2"}
+            {"name":"test4","alg":"M2 U M' U2 M' U M U2 M' U2"},
+            {"name":"test3","alg":"M2 U' M' U2 M' U' M U2 M' U2"},
+            {"name":"test6(6)","alg":"M' U2 M U' M' U2 M' U' M2 U2"},
+            {"name":"test5(3)","alg":"M' U2 M U M' U2 M' U M2 U2"}
+            
         ],
         "test df/db swap + fd on u 0/5 solved":[
             {"name":"H","alg":"M2 U2 M2 U' M' U2 M U"},
