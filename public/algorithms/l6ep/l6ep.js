@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 import Cube from 'cubejs';
-import './lse.css';
+import './l6ep.css';
 
 export default function GetLseCaseSVG({className, algorithm, colorScheme}) {
     const [cubeState, setCubeState] = useState('');

@@ -1,11 +1,11 @@
 import AlgGrid from "@/components/AlgGrid/AlgGrid";
-import GetLseCaseSVG from "@/public/algorithms/lse/lse.js";
+import GetLseCaseSVG from "@/public/algorithms/l6ep/l6ep.js";
 
 export default function RouxLSE() {
     return (
         <>
             <div>Roux LSE Page</div>
-            <AlgGrid algSource={"/algorithms/lse/lse.json"} SvgComponent={GetLseCaseSVG} />
+            <AlgGrid algSource={"/algorithms/l6ep/l6ep.json"} SvgComponent={GetLseCaseSVG} />
         </>
     )
 }

@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <main className={styles.main}>
         This is cubewing.com :)
-        <Link href="/roux-cmll">Roux CMLL</Link>
-        <Link href="/roux-lse">Roux LSE</Link>
+        <Link href="/cmll">Roux CMLL</Link>
+        <Link href="/l6ep">Roux LSE</Link>
       </main>
     </>
   );
