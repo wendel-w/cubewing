@@ -1,30 +1,30 @@
 {
     "categories":{
         "DF/DB & UL/UR on U, DF/DB Opposite":[
-            {"name":"test1","alg":"M' U2 M2 U2 M'"},
-            {"name":"test2","alg":"M2 U' M2 U"}
+            {"name":"1","alg":"M' U2 M2 U2 M'"},
+            {"name":"2","alg":"M2 U' M2 U"}
         ],
-        "DF/DB & UL/UR on U, DF/DB Adjacent":[
+        "DF/DB & UL/UR on U, DF/DB Adjacent test":[
             {"name":"test1","alg":"U2 M2 U' M' U2 M U2 M2 U'"},
             {"name":"test2","alg":"M2 U M2 U2 M U2 M' U'"},
             {"name":"test3","alg":"U2 M2 U' M U2 M U"},
             {"name":"test4","alg":"U2 M2 U M U2 M U'"},
             {"name":"test5","alg":"U2 M2 U' M2 U2 M U2 M' U'"}
         ],
-        "DF/DB on U, UL/UR on D, 1/6 Solved":[
-            {"name":"test1","alg":"M2 U' M' U2 M' U'"},
-            {"name":"test2","alg":"M2 U M' U2 M' U"}
+        "DF/DB on U, UL/UR on D, 1/6 Solved test":[
+            {"name":"1","alg":"M2 U' M' U2 M' U'"},
+            {"name":"2","alg":"M2 U M' U2 M' U"}
         ],
-        "DF/DB on U, UL/UR on D, 0/6 Solved":[
-            {"name":"test1","alg":"M2 U M2 U'"},
-            {"name":"test2","alg":"M U2 M2 U2 M' U M2 U'"},
+        "DF/DB on U, UL/UR on D, 0/6 Solved test":[
+            {"name":"1","alg":"M2 U M2 U'"},
+            {"name":"2","alg":"M U2 M2 U2 M' U M2 U'"},
             {"name":"test3","alg":"M2 U' M2 U2 M' U2 M U"}
         ],
         "DF/DB on U, UL/UR on U/D, 2/6 Solved":[
-            {"name":"test1","alg":"M U2 M U M U2 M U'"},
-            {"name":"test2","alg":"M' U2 M' U M' U2 M' U'"}
+            {"name":"1","alg":"M' U2 M' U' M' U2 M' U"},
+            {"name":"2","alg":"M' U2 M' U M' U2 M' U'"}
         ],
-        "DF/DB on U, UL/UR on U/D, 1/6 Solved":[
+        "DF/DB on U, UL/UR on U/D, 1/6 Solved test":[
             {"name":"test1","alg":"M U2 M U' M2 U'"},
             {"name":"test2","alg":"M' U2 M' U M2 U"},
             {"name":"test3","alg":"U' M U2 M U M2 U2"},
@@ -36,7 +36,7 @@
             {"name":"test9","alg":"U M2 U2 M' U2 M' U M' U2 M"},
             {"name":"test10","alg":"U M U2 M U M2 U2 M U2 M'"}
         ],
-        "DF/DB on U, UL/UR on U/D, 0/6 Solved":[
+        "DF/DB on U, UL/UR on U/D, 0/6 Solved test":[
             {"name":"test1","alg":"M2 U2 M' U2 M U M2 U'"},
             {"name":"test2","alg":"M U2 M' U2 M2 U' M2 U"},
             {"name":"test3","alg":"M' U2 M U2 M2 U M2 U'"},
