@@ -23,7 +23,7 @@ export default function AlgGrid({algSource, SvgComponent}) {
                                 <li key={name} className={styles.case}>
                                     <SvgComponent className={styles.svg} algorithm={alg.split("’").join("'").split("(").join("").split(")").join("").split("2'").join("2")} colorScheme={colorScheme} />
                                     <div className={styles.caseInfo}>
-                                        <p className={styles.caseTitle}>{name}:</p>
+                                        <p className={styles.caseTitle}>{name}:</p> 
                                         <p className={styles.caseAlg}>{alg.split("'").join("&apos;")}</p>
                                     </div>
                                 </li>
