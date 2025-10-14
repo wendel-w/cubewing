@@ -7,8 +7,8 @@
         "DF/DB & UL/UR on U, DF/DB Adjacent test":[
             {"name":"test1","alg":"U2 M2 U' M' U2 M U2 M2 U'"},
             {"name":"test2","alg":"M2 U M2 U2 M U2 M' U'"},
-            {"name":"test3","alg":"U2 M2 U' M U2 M U"},
-            {"name":"test4","alg":"U2 M2 U M U2 M U'"},
+            {"name":"3","alg":"M2 U' M U2 M (U')"},
+            {"name":"4","alg":"M2 U M U2 M (U)"},
             {"name":"test5","alg":"U2 M2 U' M2 U2 M U2 M' U'"}
         ],
         "DF/DB on U, UL/UR on D, 1/6 Solved test":[
@@ -46,8 +46,8 @@
             {"name":"7","alg":"M' U2 M U' M U2 M' U"},
             {"name":"8","alg":"M' U2 M U M U2 M' U'"},
             {"name":"test9","alg":"U2 M U2 M' U M2 U' M U2 M U2"},
-            {"name":"test10","alg":"M U2 M U M2 U M U2 M' U2"},
-            {"name":"test11","alg":"M U2 M' U' M2 U' M' U2 M' U2"},
+            {"name":"10","alg":"M U2 M U M2 U M U2 M' U2"},
+            {"name":"11","alg":"M U2 M' U' M2 U' M' U2 M' U2"},
             {"name":"test12","alg":"M U2 M U M2 U M2 U2 M' U2 M'"}
         ],
 
