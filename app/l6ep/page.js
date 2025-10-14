@@ -10,7 +10,7 @@ export default function RouxLSE() {
                     You can view the source i used  <a href='https://docs.google.com/spreadsheets/d/1_V7I5yWftss7ezdfhs43eMoon8S3I6z6boeQmiH6lgU/edit?gid=1941046113#gid=1941046113'>here</a>.<br />
                     Please note that:<br />
                     This is not the recommended way to solve L6E(the Last 6 Edges) in Roux, this is an experimental approach.<br />
-                    The algorithms were selected by me, and I'm not a proffessional. Feel free to explore other alternatives from the source or anywhere else.<br />
+                    The algorithms were selected by me, and I&apos;m not a proffessional. Feel free to explore other alternatives from the source or anywhere else.<br />
                     I only included algorithms that use only M and U moves. In some cases the top recommendations use R, r or other moves.<br />
                 </p>
             </div>
