@@ -29,26 +29,26 @@
             {"name":"2","alg":"M' U2 M' U M2 (U)"},
             {"name":"3","alg":"M U2 M U M2 (U)"},
             {"name":"4","alg":"M' U2 M' U' M2 (U')"},
-            {"name":"test5","alg":"U M U2 M' U2 M2 U M' U2 M'"},
-            {"name":"test6","alg":"U M' U2 M U M U2 M U2 M2"},
+            {"name":"5","alg":"M2 U2 M U2 M U M U2 M' U"},
+            {"name":"6","alg":"M2 U2 M U2 M U' M U2 M' U'"},
             {"name":"test7","alg":"U' M U2 M U M2 U' M' U2 M U"},
             {"name":"test8","alg":"U2 M U2 M' U' M2 U M U2 M U2"},
-            {"name":"test9","alg":"U M2 U2 M' U2 M' U M' U2 M"},
-            {"name":"test10","alg":"U M U2 M U M2 U2 M U2 M'"}
+            {"name":"9","alg":"M2 U2 M' U2 M' U M' U2 M U"},
+            {"name":"10","alg":"M2 U2 M' U2 M' U' M' U2 M U'"}
         ],
         "DF/DB on U, UL/UR on U/D, 0/6 Solved test":[
             {"name":"test1","alg":"M2 U2 M' U2 M U M2 U'"},
             {"name":"test2","alg":"M U2 M' U2 M2 U' M2 U"},
             {"name":"test3","alg":"M' U2 M U2 M2 U M2 U'"},
             {"name":"test4","alg":"M U2 M' U2 M2 U M2 U'"},
-            {"name":"test5","alg":"M U2 M U' M2 U' M2 U2 M' U2 M'"},
+            {"name":"5","alg":"M U2 M U' M2 U' M2 U2 M' U2 M'"},
             {"name":"test6","alg":"M U2 M U' M2 U M' U2 M"},
             {"name":"7","alg":"M' U2 M U' M U2 M' U"},
             {"name":"8","alg":"M' U2 M U M U2 M' U'"},
             {"name":"test9","alg":"U2 M U2 M' U M2 U' M U2 M U2"},
-            {"name":"10","alg":"M U2 M U M2 U M U2 M' U2"},
+            {"name":"10","alg":"M U2 M' U M2 U M' U2 M' U2"},
             {"name":"11","alg":"M U2 M' U' M2 U' M' U2 M' U2"},
-            {"name":"test12","alg":"M U2 M U M2 U M2 U2 M' U2 M'"}
+            {"name":"12","alg":"M U2 M U M2 U M2 U2 M' U2 M'"}
         ],
 
         "test df/db swap + db on u 1/5 solved":[
