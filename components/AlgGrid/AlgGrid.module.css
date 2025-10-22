@@ -14,9 +14,11 @@
 
     box-shadow: var(--shadow);
 }
+/*
 .categoryTitle:hover {
-    /*background: var(--gradient-hover);*/
+    background: var(--gradient-hover);
 }
+*/
 
 .caseContainer {
     display: grid;
@@ -68,4 +70,7 @@
     padding-bottom: 5px;
     color: var(--text-muted);
     word-wrap: break-word;
+}
+.a {
+    text-decoration: none;
 }
