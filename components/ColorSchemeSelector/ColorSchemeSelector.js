@@ -9,7 +9,7 @@ export default function ColorSchemeSelector({colorScheme, setColorScheme}) {
         let localColorScheme = { ...prev };
         let helper;
 
-        console.log("rotating", direction);
+        //console.log("rotating", direction);
 
         if (direction === "x") {
             helper = localColorScheme.U;

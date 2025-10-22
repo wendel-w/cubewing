@@ -106,7 +106,7 @@ body {
   background: var(--gradient);
 }
 .description:hover {
-  background: var(--gradient-hover);
+  /*background: var(--gradient-hover);*/
 }
 .description .title {
   color: var(--text);

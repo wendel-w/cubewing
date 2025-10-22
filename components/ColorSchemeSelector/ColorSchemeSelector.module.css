@@ -15,7 +15,7 @@
     
 }
 .colorSchemeSelector:hover{
-    background: var(--gradient-hover);
+    /*background: var(--gradient-hover);*/
 }
 .title{
     font-weight: bold;
@@ -25,6 +25,7 @@
 .circleContainer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
     align-items: center;
     justify-content: start;
