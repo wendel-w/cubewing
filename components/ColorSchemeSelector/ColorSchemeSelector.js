@@ -76,17 +76,17 @@ export default function ColorSchemeSelector({colorScheme, setColorScheme}) {
         let localColorScheme = {...colorScheme};
         switch(color) {
             case localColorScheme.F:
-                console.log("detected F");
+                //console.log("detected F");
                 break;
 
             case localColorScheme.B:
-                console.log("detected B");
+                //console.log("detected B");
                 rotate('y');
                 rotate('y');
                 break;
 
             case localColorScheme.L:
-                console.log("detected L");
+                //console.log("detected L");
                 rotate('y');
                 rotate('y');
                 rotate('y');
@@ -101,8 +101,8 @@ export default function ColorSchemeSelector({colorScheme, setColorScheme}) {
         setColorScheme({U: 'White', D: 'Yellow', F: 'Green', B: 'Blue', L: 'Orange', R: 'Red'});
     }, []);
     useEffect(() => {
-        console.log("Color scheme change detected in selector:");
-        console.log(colorScheme);
+        //console.log("Color scheme change detected in selector:");
+        //console.log(colorScheme);
     }, [colorScheme]);
 
     return (
