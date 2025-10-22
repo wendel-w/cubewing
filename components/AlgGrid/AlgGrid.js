@@ -31,7 +31,7 @@ export default function AlgGrid({algSource, SvgComponent}) {
 
                                 return(
                                 <li key={name} className={styles.case}>
-                                    <a className={styles.a} target="_blank" rel="noopener noreferrer" href={`https://alg.cubing.net/?setup=${linkInverseAlg}&alg=${linkAlg}&stage=L6E`}>
+                                    <a className={styles.a} target="_blank" rel="noopener noreferrer" href={`https://alg.cubing.net/?setup=${linkInverseAlg}&alg=${linkAlg}`}>
                                         <SvgComponent className={styles.svg} algorithm={cleanAlg} colorScheme={colorScheme} />
                                     </a>
                                     <div className={styles.caseInfo}>
