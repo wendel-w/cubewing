@@ -1,0 +1,251 @@
+[
+    {
+        "categoryName":"DF/DB & UL/UR on U",
+        "subcategories":[
+            {
+                "categoryName":"DF/DB Opposite",
+                "algs":[
+                    {"name":"1","alg":"M' U2 M2 U2 M'"},
+                    {"name":"2","alg":"M2 U' M2 (U)"}
+                ]
+            },
+            {
+                "categoryName":"DF/DB Adjacent test",
+                "algs":[
+                    {"name":"test1","alg":"U2 M2 U' M' U2 M U2 M2 U'"},
+                    {"name":"test2","alg":"M2 U M2 U2 M U2 M' U'"},
+                    {"name":"3","alg":"M2 U' M U2 M (U')"},
+                    {"name":"4","alg":"M2 U M U2 M (U)"},
+                    {"name":"test5","alg":"U2 M2 U' M2 U2 M U2 M' U'"}
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName":"DF/DB on U, UL/UR on D",
+        "subcategories":[
+            {
+                "categoryName":"DF/DB on U, UL/UR on D, 1/6 Solved test",
+                "algs":[
+                    {"name":"1","alg":"M2 U' M' U2 M' (U')"},
+                    {"name":"2","alg":"M2 U M' U2 M' (U)"}
+                ]
+            },
+            {
+                "categoryName":"DF/DB on U, UL/UR on D, 0/6 Solved test",
+                "algs":[
+                    {"name":"1","alg":"M2 U M2 (U')"},
+                    {"name":"2","alg":"M U2 M2 U2 M' U M2 (U')"},
+                    {"name":"test3","alg":"M2 U' M2 U2 M' U2 M U"}
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName":"DF/DB on U, UL/UR on U/D",
+        "subcategories":[
+            {
+                "categoryName":"DF/DB on U, UL/UR on U/D, 2/6 Solved",
+                "algs":[
+                    {"name":"1","alg":"M' U2 M' U' M' U2 M' (U)"},
+                    {"name":"2","alg":"M' U2 M' U M' U2 M' (U')"}
+                ]
+            },
+            {
+                "categoryName":"DF/DB on U, UL/UR on U/D, 1/6 Solved test",
+                "algs":[
+                    {"name":"1","alg":"M U2 M U' M2 (U')"},
+                    {"name":"2","alg":"M' U2 M' U M2 (U)"},
+                    {"name":"3","alg":"M U2 M U M2 (U)"},
+                    {"name":"4","alg":"M' U2 M' U' M2 (U')"},
+                    {"name":"5","alg":"M2 U2 M U2 M U (M U2 M') U"},
+                    {"name":"6","alg":"M2 U2 M U2 M U' (M U2 M') U'"},
+                    {"name":"test7","alg":"U' M U2 M U M2 U' M' U2 M U"},
+                    {"name":"test8","alg":"M' U2 M' U M2 U' M U2 M'"},
+                    {"name":"9","alg":"M2 U2 M' U2 M' U (M' U2 M) U"},
+                    {"name":"10","alg":"M2 U2 M' U2 M' U' (M' U2 M) U'"}
+                ]
+            },
+            {
+                "categoryName":"DF/DB on U, UL/UR on U/D, 0/6 Solved test",
+                "algs":[
+                    {"name":"test1","alg":"M2 U2 M' U2 M U M2 U'"},
+                    {"name":"test2","alg":"M U2 M' U2 M2 U' M2 U"},
+                    {"name":"test3","alg":"M' U2 M U2 M2 U M2 U'"},
+                    {"name":"test4","alg":"M U2 M' U2 M2 U M2 U'"},
+                    {"name":"5","alg":"M U2 M U' M2 U' M2 U2 M' U2 M'"},
+                    {"name":"test6","alg":"M U2 M U' M2 U M' U2 M"},
+                    {"name":"7","alg":"M' U2 M U' M U2 M' U"},
+                    {"name":"8","alg":"M' U2 M U M U2 M' U'"},
+                    {"name":"test9","alg":"M' U2 M' U' M2 U M U2 M'"},
+                    {"name":"10","alg":"M U2 M' U M2 U M' U2 M' U2"},
+                    {"name":"11","alg":"M U2 M' U' M2 U' M' U2 M' U2"},
+                    {"name":"12","alg":"(M U2 M U) M2 U M2 U2 (M' U2 M')"}
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName":"DF&DB on D",
+        "subcategories":[
+            {
+                "categoryName":"EPLL",
+                "algs":[
+                    {"name":"Ua","alg":"M2 U M U2 M' U M2"},
+                    {"name":"Ub","alg":"M2 U M U2 M' U M2"},
+                    {"name":"H","alg":"M2 U M2 U2 M2 U M2"},
+                    {"name":"Z","alg":"M2 U M2 U M' U2 M2 U2 M' (U2)"}
+                ]
+            },
+            {
+                "categoryName":"EPLL + DF/DB Swap",
+                "algs":[
+                    {"name":"Opp. Swap","alg":"M2 U2 M2 (U2)"},
+                    {"name":"Adj. Swap","alg":"M2 U M U2 M U2 M2 U M2 (U2)"},
+                    {"name":"W","alg":"M2 U' M' U2 M U M2 (U2)"},
+                    {"name":"Oa","alg":"M U' M2 U' M2 U' M' (U')"},
+                    {"name":"Ob","alg":"M U M2 U M2 U M' (U)"}
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName":"DF on U",
+        "subcategories":[
+            {
+                "categoryName":"DB Solved",
+                "subcategories":[
+                    {
+                        "categoryName":"2/5 Solved",
+                        "algs":[
+                            {"name":"Pa","alg":"M U2 M U M' U2 M' (U')"},
+                            {"name":"Pb","alg":"M U2 M U' M' U2 M' (U)"},
+                            {"name":"I","alg":"M' U2 M (U2)"}
+                        ]
+                    },
+                    {
+                        "categoryName":"1/5 Solved",
+                        "algs":[
+                            {"name":"Ca","alg":"M U2  M' U M' U2 M' U' M2"},
+                            {"name":"Cb","alg":"M U2  M' U' M' U2 M' U M2"},
+                            {"name":"D","alg":"M U  M2 U2 M2 U M'"}
+                        ]
+                    },
+                    {
+                        "categoryName":"0/5 Solved",
+                        "algs":[
+                            {"name":"Oa","alg":"M U2 M' U' M2 U' M2"},
+                            {"name":"Ob","alg":"M U2 M' U M2 U M2"},
+                            {"name":"Wa","alg":"M' U2 M U M' U2 M (U')"},
+                            {"name":"Wb","alg":"M' U2 M U' M' U2 M (U)"},
+                            {"name":"Qa","alg":"M' U2 M' U' M2 U' M U2 M' (U2)"},
+                            {"name":"Qb","alg":"M' U2 M' U M2 U M U2 M' (U2)"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryName":"DF/DB Swap",
+                "subcategories":[
+                    {
+                        "categoryName":"3/5 Solved",
+                        "algs":[
+                            {"name":"Dot","alg":"M U2 M U2 M2"}
+                        ]
+                    },
+                    {
+                        "categoryName":"1/5 Solved",
+                        "algs":[
+                            {"name":"test2","alg":"M2 U' M U2 M U' M U2 M' U2"},
+                            {"name":"test1","alg":"M2 U M U2 M U M U2 M' U2"},
+                            {"name":"test4","alg":"M2 U M' U2 M' U M U2 M' U2"},
+                            {"name":"test3","alg":"M2 U' M' U2 M' U' M U2 M' U2"},
+                            {"name":"test6(6)","alg":"M' U2 M U' M' U2 M' U' M2 U2"},
+                            {"name":"test5(3)","alg":"M' U2 M U M' U2 M' U M2 U2"}
+                            
+                        ]
+                    },
+                    {
+                        "categoryName":"0/5 solved",
+                        "algs":[
+                            {"name":"H","alg":"M2 U2 M2 U' M' U2 M U"},
+                            {"name":"Za","alg":"M2 U M2 U' M U2 M' U2"},
+                            {"name":"Zb","alg":"M' U2 M U M2 U' M2 U2"},
+                            {"name":"Ua","alg":"M2 U' M' U2 M U M U2 M"},
+                            {"name":"Ub","alg":"M2 U M' U2 M U' M U2 M "}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName":"DB on U",
+        "subcategories":[
+            {
+                "categoryName":"DF Solved",
+                "subcategories":[
+                    {
+                        "categoryName":"2/5 Solved",
+                        "algs":[
+                            {"name":"Pa","alg":"M' U2 M' U M U2 M (U')"},
+                            {"name":"Pb","alg":"M' U2 M' U' M U2 M (U)"},
+                            {"name":"I","alg":"M U2 M' (U2)"}
+                        ]
+                    },
+                    {
+                        "categoryName":"1/5 Solved",
+                        "algs":[
+                            {"name":"Ca","alg":"M' U2  M U M U2 M U' M2"},
+                            {"name":"Cb","alg":"M' U2  M U' M U2 M U M2"},
+                            {"name":"D","alg":"M' U  M2 U2 M2 U M"}
+                        ]
+                    },
+                    {
+                        "categoryName":"0/5 Solved",
+                        "algs":[
+                            {"name":"Oa","alg":"M' U2 M U' M2 U' M2"},
+                            {"name":"Ob","alg":"M' U2 M U M2 U M2"},
+                            {"name":"Wa","alg":"M U2 M' U M U2 M' (U')"},
+                            {"name":"Wb","alg":"M U2 M' U' M U2 M' (U)"},
+                            {"name":"Qa","alg":"M U2 M U' M2 U' M' U2 M (U2)"},
+                            {"name":"Qb","alg":"M U2 M U M2 U M' U2 M (U2)"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "categoryName":"DF/DB Swap",
+                "subcategories":[
+                    {
+                        "categoryName":"test 3/5 solved",
+                        "algs":[
+                        {"name":"Dot","alg":"M' U2 M' U2 M2"}
+                        ]
+                    },
+                    {
+                        "categoryName":"test 1/5 solved",
+                        "algs":[
+                            {"name":"test1","alg":"M2 U2 M U2 M' U' M U2 M U'"},
+                            {"name":"test2","alg":"U2 M2 U M U2 M U M' U2 M"},
+                            {"name":"test3","alg":"U2 M U2 M' U' M' U2 M' U' M2"},
+                            {"name":"test4","alg":"R2 U' R2 U' M2 U R2 U r2"},
+                            {"name":"test5","alg":"U M2 U2 M' U2 M' U M U2 M'"},
+                            {"name":"test6","alg":"U M2 U M' U2 M' U M' U2 M U"}
+                        ]
+                    },
+                    {
+                        "categoryName":"test 0/5 solved",
+                        "algs":[
+                            {"name":"H","alg":"M2 U2 M2 U M U2 M' (U')"},
+                            {"name":"Ua","alg":"M' U2 M' U M' U2 M U' M2"},
+                            {"name":"Za","alg":"M U M2 U M2 U' M'"},
+                            {"name":"Zb","alg":"M U' M2 U' M2 U M'"},
+                            {"name":"Ub","alg":"M2 U M U2 M' U' M' U2 M'"}  
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

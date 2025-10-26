@@ -1,0 +1,26 @@
+[
+    {
+        "categoryName":"category one",
+        "algs":[
+            {"name":"alg name1","alg":"R U R'"},
+            {"name":"alg name2","alg":"R U R'"}
+        ]
+    },
+    {
+        "categoryName":"category two",
+        "subcategories":[
+            {
+                "categoryName":"sub 1",
+                "algs":[
+                    {"name":"alg name","alg":"L F L'"}
+                ]
+            },
+            {
+                "categoryName":"sub 2",
+                "algs":[
+                    {"name":"alg name","alg":"D B D'"}
+                ]
+            }
+        ]
+    }
+]

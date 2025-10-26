@@ -17,7 +17,7 @@ export default function RouxCmll() {
                 {/*<ColorSchemeSelector colorScheme={colorScheme} setColorScheme={setColorScheme} />*/}
             </div>
             {/*<AlgGrid algSource={"/algorithms/cmll/cmll.json"} SvgComponent={GetCmllCaseSVG} colorScheme={colorScheme} />*/}
-            <AlgGrid algSource={"/algorithms/cmll/cmll.json"} SvgComponent={GetCmllCaseSVG}/>
+            <AlgGrid algSource={"/algorithms/cmll/cmll_.json"} SvgComponent={GetCmllCaseSVG}/>
         </div>
     );
 }

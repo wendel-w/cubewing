@@ -138,8 +138,8 @@ export default function ColorSchemeSelector({colorScheme, setColorScheme}) {
                 {
                     ((target === 'top' && colorScheme.U === color) || (target === 'front' && colorScheme.F === color)) && (
                         <>
-                            <circle cx="10" cy="10" r="9" stroke="black" strokeWidth="2" fill="none" />
-                            <circle cx="10" cy="10" r="9" stroke="white" strokeWidth="1" fill="none" />
+                            <circle cx="10" cy="10" r="9" className={styles.circ1}  strokeWidth="2" fill="none" />
+                            <circle cx="10" cy="10" r="9" className={styles.circ2}  strokeWidth="1" fill="none" />
                         </>
                     )
                 }
