@@ -25,14 +25,14 @@
         "categoryName":"DF/DB on U, UL/UR on D",
         "subcategories":[
             {
-                "categoryName":"DF/DB on U, UL/UR on D, 1/6 Solved test",
+                "categoryName":"1/6 Solved test",
                 "algs":[
                     {"name":"1","alg":"M2 U' M' U2 M' (U')"},
                     {"name":"2","alg":"M2 U M' U2 M' (U)"}
                 ]
             },
             {
-                "categoryName":"DF/DB on U, UL/UR on D, 0/6 Solved test",
+                "categoryName":"0/6 Solved test",
                 "algs":[
                     {"name":"1","alg":"M2 U M2 (U')"},
                     {"name":"2","alg":"M U2 M2 U2 M' U M2 (U')"},
@@ -45,14 +45,14 @@
         "categoryName":"DF/DB on U, UL/UR on U/D",
         "subcategories":[
             {
-                "categoryName":"DF/DB on U, UL/UR on U/D, 2/6 Solved",
+                "categoryName":"2/6 Solved",
                 "algs":[
                     {"name":"1","alg":"M' U2 M' U' M' U2 M' (U)"},
                     {"name":"2","alg":"M' U2 M' U M' U2 M' (U')"}
                 ]
             },
             {
-                "categoryName":"DF/DB on U, UL/UR on U/D, 1/6 Solved test",
+                "categoryName":"1/6 Solved test",
                 "algs":[
                     {"name":"1","alg":"M U2 M U' M2 (U')"},
                     {"name":"2","alg":"M' U2 M' U M2 (U)"},
@@ -62,12 +62,12 @@
                     {"name":"6","alg":"M2 U2 M U2 M U' (M U2 M') U'"},
                     {"name":"test7","alg":"U' M U2 M U M2 U' M' U2 M U"},
                     {"name":"test8","alg":"M' U2 M' U M2 U' M U2 M'"},
-                    {"name":"9","alg":"M2 U2 M' U2 M' U (M' U2 M) U"},
-                    {"name":"10","alg":"M2 U2 M' U2 M' U' (M' U2 M) U'"}
+                    {"name":"9","alg":"(M2 U2 M' U2 M') U (M' U2 M) U"},
+                    {"name":"10","alg":"(M2 U2 M' U2 M') U' (M' U2 M) U'"}
                 ]
             },
             {
-                "categoryName":"DF/DB on U, UL/UR on U/D, 0/6 Solved test",
+                "categoryName":"0/6 Solved test",
                 "algs":[
                     {"name":"test1","alg":"M2 U2 M' U2 M U M2 U'"},
                     {"name":"test2","alg":"M U2 M' U2 M2 U' M2 U"},

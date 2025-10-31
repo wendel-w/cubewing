@@ -5,11 +5,13 @@ import ColorSchemeSelector from "@/components/ColorSchemeSelector/ColorSchemeSel
 import cmll from "@/public/algorithms/cmll/cmll.json";
 import GetCmllCaseSVG from "@/public/algorithms/cmll/cmll";
 import AlgGrid from "@/components/AlgGrid/AlgGrid";
+import NavBar from "@/components/NavBar/NavBar";
 
 export default function RouxCmll() {
     const [colorScheme, setColorScheme] = React.useState({});
     return (
         <div>
+            <NavBar title="CMLL" />
             <div>
                 <h1>Is The Beta version of the site</h1>
                 <h1>Roux CMLL</h1>

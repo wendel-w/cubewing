@@ -1,9 +1,11 @@
 import AlgGrid from "@/components/AlgGrid/AlgGrid";
 import GetLseCaseSVG from "@/public/algorithms/l6ep/l6ep.js";
+import NavBar from "@/components/NavBar/NavBar";
 
 export default function L6EP() {
     return (
         <>
+            <NavBar title="L6EP" />
             <div className="description">
                 <p className="title"> Description: </p>
                 
