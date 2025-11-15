@@ -69,18 +69,18 @@
             {
                 "categoryName":"0/6 Solved test",
                 "algs":[
-                    {"name":"test1","alg":"M2 U2 M' U2 M U M2 U'"},
-                    {"name":"test2","alg":"M U2 M' U2 M2 U' M2 U"},
-                    {"name":"test3","alg":"M' U2 M U2 M2 U M2 U'"},
-                    {"name":"test4","alg":"M U2 M' U2 M2 U M2 U'"},
-                    {"name":"5","alg":"M U2 M U' M2 U' M2 U2 M' U2 M'"},
+                    {"name":"1","alg":"M' U2 M U2 M2 U' M2 U"},
+                    {"name":"2","alg":"M U2 M' U2 M2 U' M2 U"},
+                    {"name":"3","alg":"M' U2 M U2 M2 U M2 U'"},
+                    {"name":"4","alg":"M U2 M' U2 M2 U M2 U'"},
+                    {"name":"5zb","alg":"(M U2 M U') M2 U' M2 U2 (M' U2 M')"},
                     {"name":"test6","alg":"M U2 M U' M2 U M' U2 M"},
-                    {"name":"7","alg":"M' U2 M U' M U2 M' U"},
-                    {"name":"8","alg":"M' U2 M U M U2 M' U'"},
+                    {"name":"7Ha","alg":"M' U2 M U' M U2 M' U"},
+                    {"name":"8Hb","alg":"M' U2 M U M U2 M' U'"},
                     {"name":"test9","alg":"M' U2 M' U' M2 U M U2 M'"},
-                    {"name":"10","alg":"M U2 M' U M2 U M' U2 M' U2"},
-                    {"name":"11","alg":"M U2 M' U' M2 U' M' U2 M' U2"},
-                    {"name":"12","alg":"(M U2 M U) M2 U M2 U2 (M' U2 M')"}
+                    {"name":"10Za","alg":"(M U2 M') U M2 U M' U2 M' U2"},
+                    {"name":"11Zb","alg":"(M U2 M') U' M2 U' M' U2 M' U2"},
+                    {"name":"12za","alg":"(M U2 M U) M2 U M2 U2 (M' U2 M')"}
                 ]
             }
         ]
